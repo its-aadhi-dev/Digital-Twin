@@ -1,0 +1,65 @@
+# Secrets
+.env
+firebase-service-account.json
+.session_store.json
+.profile_cache.json
+.sdk_session_map.json
+
+# Output / cache
+output/
+!output/.gitkeep
+
+# Runtime state (contains OAuth tokens, user data, conversation history)
+.session_store.json
+.chat_history.json
+.profile_cache.json
+.rich_profile_cache.json
+.sdk_session_map.json
+
+# Memory
+.claude-memory.md
+
+# Local agent context / retros (not part of the project)
+.context/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.err
+.gstack/
+.build/
+.swiftpm/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# Build artifacts
+build/
+tsconfig.tsbuildinfo
+
+# Next.js
+.next/
+out/
+node_modules/
+npm-debug.log*
+.vercel
+.DS_Store
