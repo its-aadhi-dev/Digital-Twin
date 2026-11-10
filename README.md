@@ -82,7 +82,7 @@ For the full developer notes, see `CLAUDE.md` and `docs/DESIGN.md`.
 ### 1. Clone and install
 
 ```bash
-git clone <your-repo-url> second-self
+git clone https://github.com/its-aadhi-dev/Digital-Twin.git second-self
 cd second-self
 
 python3 -m venv .venv
